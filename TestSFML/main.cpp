@@ -1,4 +1,4 @@
-#include "App.h"
+#include <SFML/Graphics.hpp>
 
 int main()
 {
@@ -7,6 +7,12 @@ int main()
     while(app->run()){};
 
     app->stop();
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
 
     delete(app);
 

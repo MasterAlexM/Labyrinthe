@@ -7,8 +7,7 @@ int main()
     while(app->run()){};
 
     app->stop();
-
-
+    
     delete(app);
 
     return 0;

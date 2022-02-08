@@ -78,15 +78,15 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Korentin\source\repos\TestSFML\TestSFML\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Korentin\source\repos\TestSFML\TestSFML\lib;$(LibraryPath)</LibraryPath>
-    <PublicIncludeDirectories>C:\Users\Korentin\source\repos\TestSFML\TestSFML\include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
+    <IncludePath>C:\Users\xcros\source\repos\SFML-Labyrinthe\TestSFML\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\xcros\source\repos\SFML-Labyrinthe\TestSFML\lib;$(LibraryPath)</LibraryPath>
+    <PublicIncludeDirectories>C:\Users\xcros\source\repos\SFML-Labyrinthe\TestSFML\include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Korentin\source\repos\TestSFML\TestSFML\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Korentin\source\repos\TestSFML\TestSFML\lib;$(LibraryPath)</LibraryPath>
-    <PublicIncludeDirectories>C:\Users\Korentin\source\repos\TestSFML\TestSFML\include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
+    <IncludePath>C:\Users\xcros\source\repos\SFML-Labyrinthe\TestSFML\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\xcros\source\repos\SFML-Labyrinthe\TestSFML\lib;$(LibraryPath)</LibraryPath>
+    <PublicIncludeDirectories>C:\Users\xcros\source\repos\SFML-Labyrinthe\TestSFML\include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -147,7 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="App.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
